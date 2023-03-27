@@ -1,0 +1,35 @@
+{
+  "name": "portfolioarchdemo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more",
+  "main": "package.json",
+  "author": "Portfolio Stories <stories.portfolio@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.35.7",
+    "@sanity/core": "^2.35.7",
+    "@sanity/default-layout": "^2.35.7",
+    "@sanity/default-login": "^2.35.7",
+    "@sanity/desk-tool": "^2.35.7",
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "@sanity/vision": "^3.7.1",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:amalmk__/portfolio-arch-a.git"
+  }
+}

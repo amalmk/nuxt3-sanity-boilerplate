@@ -4,11 +4,23 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "generate-nuxt-sanity": "echo 'Building Sanity to public/studio' && cd ./studio && npm i && sanity build ../public/studio -y && cd .. && nuxt generate",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.3.2"
+    "@sanity/cli": "^3.7.1",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.3.2",
+    "postcss": "^8.4.21",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.1",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@nuxtjs/sanity": "^1.6.0",
+    "@sanity/client": "^5.3.2",
+    "@sanity/image-url": "^1.0.2"
   }
 }
