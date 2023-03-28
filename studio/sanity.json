@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "portfolio-arch-demo",
+    "name": "project-name-here",
     "basePath": "/studio"
   },
   "api": {
-    "projectId": "txajk646",
+    "projectId": "project-id-here",
     "dataset": "production"
   },
   "plugins": [
